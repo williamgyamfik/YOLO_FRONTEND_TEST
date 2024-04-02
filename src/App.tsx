@@ -1,20 +1,12 @@
 import React from "react";
 import CountryTable from "../components/CountryTable";
-import { useQuery, gql } from "@apollo/client";
+import { useQuery } from "@apollo/client";
 
-const GET_DATA = gql`
-  query {
-    countries {
-      code
-      name
-    }
-  }
-`;
+import { GET_DATA } from "../constant";
 
 export interface CountryData {
   name: string;
   code: string;
-  id: number;
 }
 
 const App: React.FC = () => {
