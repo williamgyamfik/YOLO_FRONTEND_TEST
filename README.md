@@ -1,5 +1,5 @@
 # Country Data Filter and Table
-This is a simple web application built with React Typescript Vite that allows users to filter and display country data based on country codes.
+This is a simple web application built with React Typescript that allows users to filter and display country data based on country codes.
 
 ## Usage 
 
@@ -28,12 +28,13 @@ cd <your folder name>
 
 6.  **File Structure**
 -src/: Contains the source code files.
-
-components/: 
+ 
+  components/: 
 - App.tsx: Main component that renders the application.
 - CountryTable.tsx: Component for displaying country data in a table format.
+- index.tsx: Entry point of the application.
+- public/: Contains static files and assets.
 
-index.tsx: Entry point of the application.
-public/: Contains static files and assets.
-README.md: Documentation file.
+7.  **README.md **
+-Documentation file.
 
